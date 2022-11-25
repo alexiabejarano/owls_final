@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 6em;
+  background-color: #70f;
+  z-index: 999;
+  height: 4rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-size: 18px;
+}
+
+nav li a {
+  text-decoration: none;
+  margin-right: 3em;
+  color: white;
+}
+
+nav li a:hover {
+  color: #ff0000;
+}
+
+.logo{
+  width: 130px;
+  margin-right: 12rem;
+}
+

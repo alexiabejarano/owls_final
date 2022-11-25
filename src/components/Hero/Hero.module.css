@@ -1,0 +1,27 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 6em;
+  min-height: 100vh;
+  background-image: url("../../assets/hero.png");
+  background-size: cover;
+  color: black;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 80px;
+  margin: 0em;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+.hero h3 {
+  color: #0f0;
+  font-size: 26px;
+  margin-block-start: 0em;
+  margin: 3em;
+  font-weight: 400;
+}

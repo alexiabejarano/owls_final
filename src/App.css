@@ -1,0 +1,60 @@
+.App.App {
+  background-color: #282c34;
+  min-height: 100vh;
+}
+
+h1{
+  margin-top:40px;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+}
+
+.homeContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: white;
+}
+
+.modulesContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.wallet-client {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 50px auto;
+  background-color: #70f;
+  padding: 50px;
+  border-radius: 60px;
+  width: 300px;
+  height: 200px;
+}
+
+.App button {
+  background-color: rgb(24, 24, 24);
+  border-radius: 60px;
+  border: 0;
+  color: white;
+  padding: 20px 40px;
+}
+.App button:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+.App button:disabled {
+  background-color: red;
+  cursor:crosshair;
+}

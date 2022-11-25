@@ -1,0 +1,17 @@
+.footer {
+  background-color: #70f;
+  font-size: 1rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+.logo{
+  width: 3rem;
+  position: relative;
+  float: right;
+  padding-right: 1rem;
+}
+
+h2, h3, p {
+  padding-left: 1rem;
+}

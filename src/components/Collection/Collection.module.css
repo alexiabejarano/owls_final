@@ -1,0 +1,11 @@
+.collection {
+  border-radius: 50px 50px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+marquee div {
+  position: relative;
+  float: left;
+}

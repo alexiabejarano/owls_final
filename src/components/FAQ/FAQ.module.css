@@ -1,0 +1,14 @@
+.faq {
+  background-color: black;
+  padding: 2em 6em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:#fff;
+}
+
+
+h2, h3{
+  color: #f80;
+}
